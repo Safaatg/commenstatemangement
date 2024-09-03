@@ -1,0 +1,32 @@
+#DeleteBtns {
+    color: hsl(358, 79%, 66%);
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+  .btn img {
+    width: 14px;
+    cursor: pointer;
+  }
+  .Reply {
+    border: none;
+    color: hsl(238, 40%, 52%);
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+  }
+  .delete-reply {
+    display: flex;
+    gap: 10px;
+  }
+  

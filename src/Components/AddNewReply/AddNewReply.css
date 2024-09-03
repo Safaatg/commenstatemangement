@@ -1,0 +1,39 @@
+.container-reply {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.reply-comment {
+    margin: 20px;
+    padding: 20px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.reply-comment textarea{
+    width: 100%;
+    border: 2px solid #f5f6fa;
+    border-radius: 8px;
+    padding: 4px;
+}
+.reply-comment > button {
+    background-color:  hsl(238, 40%, 52%);
+    border: none;
+    color: white;
+    padding: 8px;
+    width: 100px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.reply-comment img{
+    width: 40px;
+}
+.comment-pro h3 {
+    font-size: 16px;
+    color: black;
+}

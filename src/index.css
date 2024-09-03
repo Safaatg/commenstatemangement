@@ -1,0 +1,83 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: hsl(212, 24%, 26%);
+  background-color: #f5f6fa;
+}
+
+/* Container styles */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Typography styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  color: hsl(238, 40%, 52%);
+  /* Add any other specific styles for headings */
+}
+
+p {
+  font-weight: 400;
+  color: hsl(212, 24%, 26%);
+  /* Add any other specific styles for paragraphs */
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: hsl(358, 79%, 66%);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  /* Add any other specific styles for buttons */
+}
+
+/* Responsive styles */
+/* Layout */
+@media (max-width: 425px) {
+  /* Styles for smaller screens */
+
+  .container{
+    max-width: 370px;
+    text-align: center;
+    font-weight: 200;
+  }
+  .post {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #counterWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+}
